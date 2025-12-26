@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" thread-count="3" parallel="tests">-->
+    <suite name="All Test Suite">
+    <test name="Login">
+    <classes>
+        <class name="com.robotic.qa.tests.LoginTests"></class>
+    </classes>
+    </test>
+</suite>
+   <!-- <test  name="ChromeTest">
+        <parameter name="BrowserName" value="Chrome"/>
+        <classes>
+            <class name="CrassBrowser"/>
+        </classes>
+    </test>
+    <test  name="FirefoxTest">
+        <parameter name="BrowserName" value="Firefox"/>
+        <classes>
+            <class name="CrassBrowser"/>
+        </classes>
+    </test>
+    <test  name="SafariTest">
+        <parameter name="BrowserName" value="Safari"/>
+        <classes>
+            <class name="CrassBrowser"/>
+        </classes>
+    </test>-->
+<!--
+</suite>-->
